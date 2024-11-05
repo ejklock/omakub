@@ -10,7 +10,6 @@ gext install just-perfection-desktop@just-perfection
 gext install blur-my-shell@aunetx
 gext install space-bar@luchrioh
 gext install undecorate@sun.wxg@gmail.com
-gext install tophat@fflewddur.github.io
 gext install AlphabeticalAppGrid@stuarthayhurst
 
 # Compile gsettings schemas in order to be able to set them
@@ -44,7 +43,6 @@ gsettings set org.gnome.shell.extensions.blur-my-shell.screenshot blur false
 gsettings set org.gnome.shell.extensions.blur-my-shell.window-list blur false
 gsettings set org.gnome.shell.extensions.blur-my-shell.panel blur false
 gsettings set org.gnome.shell.extensions.blur-my-shell.overview blur true
-gsettings set org.gnome.shell.extensions.blur-my-shell.overview pipeline 'pipeline_default'
 gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock blur true
 gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock brightness 0.6
 gsettings set org.gnome.shell.extensions.blur-my-shell.dash-to-dock sigma 30
