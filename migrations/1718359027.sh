@@ -32,11 +32,6 @@ source $OMAKUB_PATH/install/desktop/set-framework-text-scaling.sh
 cp $OMAKUB_PATH/themes/tokyo-night/alacritty.toml ~/.config/alacritty/theme.toml
 cp $OMAKUB_PATH/configs/alacritty/fonts/CaskaydiaMono.toml ~/.config/alacritty/font.toml
 
-# Set new Gnome settings
-source $OMAKUB_PATH/install/desktop/set-gnome-settings.sh
-
-# Install new apps
-source $OMAKUB_PATH/install/desktop/a-flatpak.sh
 source $OMAKUB_PATH/install/desktop/app-gnome-sushi.sh
 source $OMAKUB_PATH/install/desktop/app-localsend.sh
 source $OMAKUB_PATH/install/desktop/app-obsidian.sh
@@ -53,12 +48,6 @@ source $OMAKUB_PATH/applications/Docker.sh
 [ -f ~/.local/share/applications/Basecamp.desktop ] && source $OMAKUB_PATH/applications/Basecamp.sh
 [ -f ~/.local/share/applications/HEY.desktop ] && source $OMAKUB_PATH/applications/HEY.sh
 [ -f ~/.local/share/applications/WhatsApp.desktop ] && source $OMAKUB_PATH/applications/WhatsApp.sh
-
-# Set new app grid
-source $OMAKUB_PATH/install/desktop/set-app-grid.sh
-
-# Add new Gnome extensions
-source $OMAKUB_PATH/install/desktop/set-gnome-extensions.sh
 
 gum style \
 	--foreground 212 --border-foreground 212 --border double \
